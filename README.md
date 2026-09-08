@@ -53,7 +53,7 @@ To find the most demanded skills for the top   3 most popular data roles. I filt
 
 ### Result
 
-![Insights Visualization of Top  SKills for Data Nerds](<images/skills_demand _for_data_roles.png>)
+![Visualization of Top  SKills for Data Nerds](<images/skills_demand _for_data_roles.png>)
 
 *Bar Graph visualizing the necesssary skills for the major data roles*
 
