@@ -15,7 +15,7 @@ This project was driven by five core questions:
 ### Data source
 The data behind this analysis comes from [Luke Barousse's Data Jobs dataset](https://huggingface.co/datasets/lukebarousse/data_jobs), packed with job titles, salaries, locations, and skills for data-related postings.
 
-# Tools I Used
+# Tools Used
 
 To dig into the data, I relied on:
 
@@ -55,11 +55,12 @@ View my notebook with detailed steps here: [2_skills_count.ipynb](2_skills_count
     plt.show()
 
 ### Result
-![Visualization of Top  SKills for Data Nerds](3_Project\Images\skill_demand_all_data_roles.png)
+
+![Insights Visualization of Top  SKills for Data Nerds](image.png)
 
 *Bar Graph visualizing the necesssary skills for the major data roles*
 
-### Insights
+### Insights 
 
 - SQL is the most consistently demanded skill across all three roles, appearing in the top 5 for Data Analyst (50.8%), Data Engineer (68.3%), and Data Scientist (51.1%) — making it the most foundational, transferable skill in data careers.
 - Python shows a clear progression by role: a supporting skill for analysts (27.1%), a core requirement for engineers (64.9%), and the single most in-demand skill for scientists (72.0%).
@@ -88,11 +89,11 @@ To find the most demanded skills for data scientist, I filtered the positions by
 
 ### Results
 
-![Trending Top Skills for Data Scientist in USA](3_Project\Images\top_8_skills_for_data_scientist.png)
+![Trending Top Skills for Data Scientist in USA](image-1.png)
 
 *Bar graph visualizing the trending  top skills for data science in USA*
 
-###  Insights
+###  Insights 
 
 - Python remains the most consistently in-demand skill throughout 2025, holding steady between 68-76%, though it shows a gradual decline from a peak in January to a lower, stable range from September onward.
 - SQL sits firmly in second place all year (around 46-54%), staying relatively stable with only minor fluctuations — reinforcing it as a consistently essential skill alongside Python.
@@ -121,11 +122,11 @@ To find how well jobs and skills pay for Data Nerds, I looked at the salary dist
 
 #### Results
 
-![Salary Distribution for Data Jobs in USA](3_Project\Images\salary_range_for_major_roles.png)
+![Salary Distribution for Data Jobs in ](image-2.png)
 
 *Box plot visualizing the salary distributions for the top 6 data  job titles.*
 
-### Insights
+### Insights USA
 
 - Salary scales with seniority as expected: Senior roles consistently show higher median salaries than their non-senior counterparts — Senior Data Scientist and Senior Data Engineer both sit noticeably above Data Scientist and Data Engineer, and Senior Data Analyst outpaces Data Analyst.
 - Data Scientist and Data Engineer roles command the highest pay overall, with median salaries in the $140k-$160k range, well above Data Analyst roles.
@@ -154,11 +155,11 @@ To find the highest-paid and most in-demand skills for Data Science, I looked at
 
 ### Result
 
-![Median Salary for Skills for Data Science](3_Project\Images\median_salary_skills.png)
+![Median Salary for Skills for Data Science](image-3.png)
 
 *Box plot visualizing the median salary versus demand count for the top skills in Data Science*
 
-### Insights
+### Insights 
 
 - The highest-paid skills (Asana, Airtable, Watson, Unreal, Ruby on Rails) are niche or specialized tools, with median salaries reaching $220k-$260k. but these rarely overlap with the most commonly requested skills.
 - The most in-demand skills (TensorFlow, Spark, SQL, AWS, Python) top out around $130k-$150k in median salary, notably lower than the top-paying niche skills, despite being far more frequently requested.
@@ -201,7 +202,8 @@ To find the most optimal skills to learn for Data Science, I looked at both the 
         ax.set_ylabel('Median Salary ($)', fontsize=16)
 
 ### Result
-![Optimal Skills for Data Scientist](3_Project\Images\optimal_skills_representation.png)
+
+![Optimum Skills for Data Scientist](3_Project\Images\optimal_skills_representation.png)
 
 *A scatter plot visualizing the most optimal skills (high paying & high  demand) for data scientist*
 
