@@ -35,9 +35,6 @@ To dig into the data, I relied on:
 
 To find the most demanded skills for the top   3 most popular data roles. I filtered out those positions by which ones were the most popular, and got the top 5 skills for these top 3 roles. This query highlights the most popular job titles and their top skills, showing which skills I should pay attention to dependingon the role I am targeting.
 
-View my notebook with detailed steps here: [2_skills_count.ipynb](2_skills_count.ipynb)
-
-
 ### Visualize Data
 
 
@@ -56,7 +53,7 @@ View my notebook with detailed steps here: [2_skills_count.ipynb](2_skills_count
 
 ### Result
 
-![Insights Visualization of Top  SKills for Data Nerds](image.png)
+![Insights Visualization of Top  SKills for Data Nerds](<images/skills_demand _for_data_roles.png>)
 
 *Bar Graph visualizing the necesssary skills for the major data roles*
 
@@ -89,7 +86,7 @@ To find the most demanded skills for data scientist, I filtered the positions by
 
 ### Results
 
-![Trending Top Skills for Data Scientist in USA](image-1.png)
+![Trending Top Skills for Data Scientist in USA](images/top_8_skills_for_data_scientist_role.png)
 
 *Bar graph visualizing the trending  top skills for data science in USA*
 
@@ -122,11 +119,11 @@ To find how well jobs and skills pay for Data Nerds, I looked at the salary dist
 
 #### Results
 
-![Salary Distribution for Data Jobs in ](image-2.png)
+![Salary Distribution for Data Jobs in ](images/salary_range_for_major_roles.png)
 
 *Box plot visualizing the salary distributions for the top 6 data  job titles.*
 
-### Insights USA
+### Insights
 
 - Salary scales with seniority as expected: Senior roles consistently show higher median salaries than their non-senior counterparts — Senior Data Scientist and Senior Data Engineer both sit noticeably above Data Scientist and Data Engineer, and Senior Data Analyst outpaces Data Analyst.
 - Data Scientist and Data Engineer roles command the highest pay overall, with median salaries in the $140k-$160k range, well above Data Analyst roles.
@@ -155,7 +152,7 @@ To find the highest-paid and most in-demand skills for Data Science, I looked at
 
 ### Result
 
-![Median Salary for Skills for Data Science](image-3.png)
+![Median Salary for Skills for Data Scientist](images/median_salary_skills.png)
 
 *Box plot visualizing the median salary versus demand count for the top skills in Data Science*
 
@@ -164,11 +161,11 @@ To find the highest-paid and most in-demand skills for Data Science, I looked at
 - The highest-paid skills (Asana, Airtable, Watson, Unreal, Ruby on Rails) are niche or specialized tools, with median salaries reaching $220k-$260k. but these rarely overlap with the most commonly requested skills.
 - The most in-demand skills (TensorFlow, Spark, SQL, AWS, Python) top out around $130k-$150k in median salary, notably lower than the top-paying niche skills, despite being far more frequently requested.
 
-## 5. Optimal Skills
+## 5. Optimum Skills
 
-### What is the most optimal skills to learn for Data Science?
+### What is the most optimum skills to learn for Data Science?
 
-To find the most optimal skills to learn for Data Science, I looked at both the median salary for each skill and how often that skill appeared in job postings. This query highlights the balance between skills that pay the most and skills that are most in-demand, showing which skills offer the best combination of high pay and strong job availability for someone learning Data Science.
+To find the optimum skills to learn for Data Science, I looked examine both the median salary for each skill and how often that skill appeared in job postings. This query highlights the balance between skills that pay the most and skills that are most in-demand, showing which skills offer the best combination of high pay and strong job availability for someone learning Data Science.
 
 ### Visualization
 
@@ -203,11 +200,11 @@ To find the most optimal skills to learn for Data Science, I looked at both the 
 
 ### Result
 
-![Optimum Skills for Data Scientist](3_Project\Images\optimal_skills_representation.png)
+![Optimum Skills for Data Scientist](images/optimum_skills_representataion.png)
 
 *A scatter plot visualizing the most optimal skills (high paying & high  demand) for data scientist*
 
-###  Insights
+###  Insights 
 
 - SQL and Python stand out as the clear optimal choices, combining high demand (over 50% and 70% of postings respectively) with solid median salaries ($130k-$135k) — confirming these as the highest-value skills to prioritize, matching the "programming" category's strong overall position.
 - TensorFlow is the highest-paying skill on the chart ($150k median) but has very low demand (around 10%), making it a high-reward, niche specialization rather than a foundational skill — useful to add after building core skills, not before.
